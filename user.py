@@ -1,3 +1,5 @@
+from list import *
+from login import *
 def view_profile(user):
     print(user)
 def update_profile(user):

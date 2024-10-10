@@ -1,4 +1,7 @@
- def register():
+from user import *
+from list import *
+from admin import *
+def register():
     if len(usr)==0:
         id=101
     else:

@@ -1,5 +1,8 @@
-usr=[]
-mwr=[]
+from admin import *
+from login import *
+from user import *
+from list import *
+
 while True:
     print('''
     1.register
@@ -53,7 +56,7 @@ while True:
                     buy_dress(user)
                 elif sub_choice==5:
                     dress_in_hand(user)
-                elif sub_choice==7:
+                elif sub_choice==6:
                     break
         else:
             print('invalid username or password')

@@ -1,3 +1,6 @@
+from list import *
+from login import *
+
 def add_dress():
     if len(mwr)==0:
         id=10
@@ -25,10 +28,10 @@ def update_dress():
     for i in mwr:
         if i['id']==id:                                                                           
             f2=1                                                                                   
-        stock=int(input('enter the stock:'))
-        price=int(input('enter the price:'))
-        i['stock']=stock
-        i['price']=price
+            stock=int(input('enter the stock:'))
+            price=int(input('enter the price:'))
+            i['stock']=stock
+            i['price']=price
     if f2==0:
         print('invalid')
 def delete_dress():
